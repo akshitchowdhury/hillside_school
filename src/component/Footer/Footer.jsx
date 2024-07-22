@@ -1,4 +1,6 @@
-import { faFileAlt, faFileArchive, faMapMarker, faMobile, faMobileAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelopeOpen, faFileAlt, faFileArchive, faMapMarkedAlt, faMapMarker, faMobile, faMobileAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons/faMapMarkerAlt';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -17,16 +19,22 @@ const Footer = () => {
                 <p>Hillside Academy started back in 1996 by Bheemachandra Education Trust. Hillside Group has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore City.</p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3">
-                    <li><a className="fa fa-facebook text-white" href="javascript:void(0);"></a></li>
-                    <li><a className="fa fa-instagram text-white" href="javascript:void(0);"></a></li>
-                    <li><a className="fa fa-google-plus text-white" href="javascript:void(0);"></a></li>
-                    <li><a className="fa fa-twitter text-white" href="javascript:void(0);"></a></li>
+                    <li><FontAwesomeIcon  icon={faFacebook} className='text-white text-3xl
+                    hover:text-amber-400 transition ease-in-out duration-300'/></li>
+                    <li><FontAwesomeIcon icon={faInstagram} className='text-white text-3xl
+                    hover:text-amber-400 transition ease-in-out duration-300'/></li>
+                    <li><FontAwesomeIcon icon={faTwitter} className='text-white text-3xl
+                    hover:text-amber-400 transition ease-in-out duration-300'/></li>
+                    <li><FontAwesomeIcon icon={faWhatsapp} className='text-white text-3xl
+                    hover:text-amber-400 transition ease-in-out duration-300'/></li>
                   </ul>
                 </div>
                 <br />
                 <div className="address-list mt-4">
                   <ul>
-                    <li className="flex items-center"><i className="fa fa-envelope-o mr-2"></i> <a href="mailto:admissions@hillsideacademy.in" className="text-white">admissions@hillsideacademy.in</a></li>
+                    <li className="flex items-center "><FontAwesomeIcon icon={faEnvelopeOpen} className='text-amber-400 
+                   text-xl p-4'/> 
+                    <a href="mailto:admissions@hillsideacademy.in" className="text-white">admissions@hillsideacademy.in</a></li>
                   </ul>
                 </div>
               </div>
@@ -53,16 +61,16 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0">
               <div className="footer-c-widget h-white address-list text-white">
-                <h3 className="text-lg font-semibold mb-4">Contact us</h3>
+                <h3 className="text-lg md:text-left font-semibold mb-4">CONTACT US</h3>
                 <ul>
-                  <li className="flex items-center mb-4"><FontAwesomeIcon icon={faMapMarker} className='text-amber-400'/># 9, Raghuvanahalli, Gubbalala Cross, Kanakapura Main Road, Bangalore-560062, Karnataka, India.</li>
+                  <li className="flex items-start mb-4"><FontAwesomeIcon icon={faMapMarkerAlt} className='text-amber-400 text-xl px-4'/># 9, Raghuvanahalli, Gubbalala Cross, Kanakapura Main Road, Bangalore-560062, Karnataka, India.</li>
                   <hr className="border-gray-700 mb-4" />
-                  <h5 className="text-md font-semibold mb-2">ADMISSION</h5>
-                  <li className="flex items-center mb-4"><FontAwesomeIcon icon={faMobileAlt} className='text-amber-400'/> 080 655 87775, 080 655 87776, 098 459 56633, 097 428 03553, 099 005 42900</li>
+                  <h5 className="text-md md:text-left font-semibold mb-2">ADMISSION</h5>
+                  <li className="flex items-start mb-4"><FontAwesomeIcon icon={faMobileAlt} className='text-amber-400 text-xl px-4'/> 080 655 87775, 080 655 87776, 098 459 56633, 097 428 03553, 099 005 42900</li>
                   <hr className="border-gray-700 mb-4" />
-                  <li className="flex items-center mb-4"><FontAwesomeIcon icon={faFileAlt} className='text-amber-400'/> <a href="brochure/Hillside-Academy-Brochure.pdf" target="_blank" className="text-white">Download Brochure</a></li>
+                  <li className="flex items-start mb-4"><FontAwesomeIcon icon={faFileAlt} className='text-amber-400 text-xl px-4'/> <a href="brochure/Hillside-Academy-Brochure.pdf" target="_blank" className="text-white">Download Brochure</a></li>
                   <hr className="border-gray-700 mb-4" />
-                  <li className="flex items-center"><FontAwesomeIcon icon={faFileArchive} className='text-amber-400'/> <a href="privacy-policy.html" className="text-white">Privacy Policy</a></li>
+                  <li className="flex items-start"><FontAwesomeIcon icon={faFileArchive} className='text-amber-400 text-xl px-4'/> <a href="privacy-policy.html" className="text-white">Privacy Policy</a></li>
                 </ul>
               </div>
             </div>
