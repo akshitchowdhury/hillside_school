@@ -10,10 +10,10 @@ const Footer = () => {
       {/* Newslatter and Columns */}
       <div className="container mx-auto px-4">
         {/* Footer Columns */}
-        <div className="footer-columns">
+        <div className="footer-columns p-10">
           <div className="flex flex-wrap">
             {/* Column */}
-            <div className="w-full sm:w-1/3 mb-8 sm:mb-0">
+            <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="footer-c-widget logo-widget text-white">
                 <img src="images/footer-logo.png" alt="Footer Logo" className="mb-4" />
                 <p>Hillside Academy started back in 1996 by Bheemachandra Education Trust. Hillside Group has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore City.</p>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </div>
                 <br />
                 <div className="address-list mt-4">
-                  <ul>
+                  <ul className='text-left'>
                     <li className="flex items-center "><FontAwesomeIcon icon={faEnvelopeOpen} className='text-amber-400 
                    text-xl p-4'/> 
                     <a href="mailto:admissions@hillsideacademy.in" className="text-white">admissions@hillsideacademy.in</a></li>
@@ -43,18 +43,18 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0">
               <div className="footer-c-widget h-white list-widget text-white">
-                <h3 className="text-lg font-semibold mb-4">ADMISSIONS</h3>
-                <ul>
-                  <li><a href="http://www.hillsideayurvedamedicalcollege.edu.in/" target="_blank" className="block mb-2">Ayurveda Medical College and Hospital</a></li>
-                  <li><a href="http://hillsidepharmacycollege.edu.in/" target="_blank" className="block mb-2">Pharmacy College</a></li>
-                  <li><a href="http://www.hillsidenursingcollege.edu.in/" target="_blank" className="block mb-2">Nursing College</a></li>
-                  <li><a href="http://hillsidebusinessschool.edu.in/" target="_blank" className="block mb-2">Business School</a></li>
-                  <li><a href="Bheemchandra-Paramedical-Institute.html" className="block mb-2">Bheemchandra Paramedical Institute</a></li>
-                  <li><a href="http://hillsidecollegeofphysiotherapy.edu.in/" target="_blank" className="block mb-2">College of Physiotherapy</a></li>
-                  <li><a href="javascript:void(0);" className="block mb-2">Pre-university colleges (PUC)</a></li>
-                  <li><a href="javascript:void(0);" className="block mb-2">Vocational diploma Courses</a></li>
-                  <li><a href="javascript:void(0);" className="block mb-2">Hillside Public School</a></li>
-                </ul>
+                <h3 className="text-lg font-semibold mb-4">QUICK LINKS</h3>
+                <ul className='text-left px-20'>
+  <li><a href="javascript:void(0);" className="block mb-2">Home</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">About Us</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">Group of Institutions</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">Research</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">Alumni Association</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">Admission</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">Admission 2023-24</a></li>
+  <li><a href="javascript:void(0);" className="block mb-2">Contact</a></li>
+</ul>
+
               </div>
             </div>
             {/* Column */}
