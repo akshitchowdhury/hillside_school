@@ -1,6 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen, faScroll, faSchoolFlag } from '@fortawesome/free-solid-svg-icons';
+import { faPlus } from '@fortawesome/free-solid-svg-icons/faPlus';
+import { faPlusCircle } from '@fortawesome/free-solid-svg-icons/faPlusCircle';
 
 const NavHome = () => {
   return (
@@ -16,10 +18,12 @@ const NavHome = () => {
               The mission of Hillside Group of Institutions is to help see the students their career prospective and act to get their ultimate goal. Hillside Academy is one of its kind...
             </p>
             <a
-              className="bg-amber-400 text-white text-2xl rounded-full w-12 h-12 flex items-center justify-center mx-auto shadow"
-              href="vision-and-mission.html"
-            >
-              +
+  className="bg-amber-400 text-white text-2xl rounded-full 
+             w-12 h-12 flex items-center justify-center mx-auto shadow 
+             transform transition-transform duration-300 ease-in-out hover:scale-110"
+  href="vision-and-mission.html"
+>
+              <FontAwesomeIcon icon={faPlusCircle}/>
             </a>
           </div>
         </div>
@@ -33,10 +37,12 @@ const NavHome = () => {
               Hillside Academy started back in 1996 by Bheemachandra Education Trust. Hillside Group has various educational institutions ranging from Kindergarten...
             </p>
             <a
-              className="bg-amber-400 text-white text-2xl rounded-full w-12 h-12 flex items-center justify-center mx-auto shadow"
-              href="aboutus.html#abthistory"
-            >
-              +
+  className="bg-amber-400 text-white text-2xl rounded-full 
+             w-12 h-12 flex items-center justify-center mx-auto shadow 
+             transform transition-transform duration-300 ease-in-out hover:scale-110"
+  href="vision-and-mission.html"
+>
+              <FontAwesomeIcon icon={faPlusCircle}/>
             </a>
           </div>
         </div>
@@ -50,10 +56,12 @@ const NavHome = () => {
               The infrastructure and facilities of Hillside Academy consists of spread-out campus alongside various amenities in the form of library, computer center...
             </p>
             <a
-              className="bg-amber-400 text-white text-2xl rounded-full w-12 h-12 flex items-center justify-center mx-auto shadow"
-              href="administration.html"
-            >
-              +
+  className="bg-amber-400 text-white text-2xl rounded-full 
+             w-12 h-12 flex items-center justify-center mx-auto shadow 
+             transform transition-transform duration-300 ease-in-out hover:scale-110"
+  href="vision-and-mission.html"
+>
+              <FontAwesomeIcon icon={faPlusCircle}/>
             </a>
           </div>
         </div>
