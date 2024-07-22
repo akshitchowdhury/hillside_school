@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import Footer from './component/Footer/Footer';
+import Nav from './component/Nav/Nav';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className= "text-center">Hello</h1>
+    <div className="App overflow-clip">
+      <Nav/>
       <Footer/> 
     </div>
   );

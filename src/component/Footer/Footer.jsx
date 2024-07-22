@@ -1,5 +1,5 @@
 import { faFacebook, faInstagram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelopeOpen, faFileAlt, faFileArchive, faMapMarkedAlt, faMapMarker, faMobile, faMobileAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelopeOpen, faFileAlt, faFileArchive, faMapMarkedAlt, faMapMarker, faMobile, faMobileAlt} from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons/faMapMarkerAlt';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -85,7 +85,7 @@ const Footer = () => {
 
       {/* Sub Footer */}
       <div className="sub-footer bg-gray-900 text-white text-center py-4">
-        <p>© Copyright 2023. Hillside Academy - All Rights Reserved.</p>
+        <p className='text-sm'>© Copyright 2023.</p>
       </div>
       {/* Sub Footer */}
     </div>

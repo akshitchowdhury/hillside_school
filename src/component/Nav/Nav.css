@@ -1,0 +1,29 @@
+/* Base styles for the background image */
+.navBg {
+    background-image: url("../../assets/homebg1.jfif");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; /* Default to full height for large screens */
+  }
+  
+  /* Mobile view */
+  @media (max-width: 640px) {
+    .navBg {
+      height: 50vh; /* 50% viewport height for small screens */
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .navBg {
+      height: 75vh; /* 75% viewport height for medium screens */
+    }
+  }
+  
+  /* Desktop view */
+  @media (min-width: 1025px) {
+    .navBg {
+      height: 100vh; /* Full viewport height for large screens */
+    }
+  }
+  
