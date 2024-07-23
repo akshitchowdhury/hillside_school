@@ -20,26 +20,55 @@ const NavLinks = () => {
           </button>
         </div>
         <div className={`hidden md:flex md:items-center ${isOpen ? 'block' : 'hidden'} bg-gray-800`}>
-          <ul className="flex flex-col md:flex-row md:space-x-8 h-auto md:h-[100px] items-center py-4 text-white">
-            <li className="py-2 md:py-0"><Link to="/" className="hover:text-gray-400">Home</Link></li>
-            <li className="py-2 md:py-0"><Link to="/about" className="hover:text-gray-400">About Us</Link></li>
-            <li className="py-2 md:py-0"><Link to="/institutions" className="hover:text-gray-400">Group of Institutions</Link></li>
-            <li className="py-2 md:py-0"><Link to="/research" className="hover:text-gray-400">Research</Link></li>
-            <li className="py-2 md:py-0"><Link to="/alumni" className="hover:text-gray-400">Alumni Association</Link></li>
-            <li className="py-2 md:py-0"><Link to="/admission" className="hover:text-gray-400">Admission 2023-24</Link></li>
-            <li className="py-2 md:py-0"><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
-          </ul>
-        </div>
+        <ul className="flex text-sm flex-col md:flex-row md:space-x-8 h-auto md:h-[100px] items-center py-4 text-white">
+        <li className="relative">
+          <Link to="/" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            HOME
+          </Link>
+        </li>
+        <li className="relative">
+          <Link to="/about" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            ABOUT US
+          </Link>
+        </li>
+        <li className="relative">
+          <Link to="/institutions" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            GROUP OF INSTITUTIONS
+          </Link>
+        </li>
+        <li className="relative">
+          <Link to="/research" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            RESEARCH
+          </Link>
+        </li>
+        <li className="relative">
+          <Link to="/alumni" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            ALUMNI ASSOCIATION
+          </Link>
+        </li>
+        <li className="relative">
+          <Link to="/admission" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            ADMISSION 2023-24
+          </Link>
+        </li>
+        <li className="relative">
+          <Link to="/contact" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            CONTACT
+          </Link>
+        </li>
+      </ul>
+</div>
+
       </div>
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800`}>
         <ul className="flex flex-col justify-around h-auto items-center py-4 text-white">
-          <li className="py-2"><Link to="/" className="hover:text-gray-400">Home</Link></li>
-          <li className="py-2"><Link to="/about" className="hover:text-gray-400">About Us</Link></li>
-          <li className="py-2"><Link to="/institutions" className="hover:text-gray-400">Group of Institutions</Link></li>
-          <li className="py-2"><Link to="/research" className="hover:text-gray-400">Research</Link></li>
-          <li className="py-2"><Link to="/alumni" className="hover:text-gray-400">Alumni Association</Link></li>
-          <li className="py-2"><Link to="/admission" className="hover:text-gray-400">Admission 2023-24</Link></li>
-          <li className="py-2"><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
+          <li className="py-2"><Link to="/" className="hover:text-gray-400">HOME</Link></li>
+          <li className="py-2"><Link to="/about" className="hover:text-gray-400">ABOUT US</Link></li>
+          <li className="py-2"><Link to="/institutions" className="hover:text-gray-400">GROUP OF INSTITUITONS</Link></li>
+          <li className="py-2"><Link to="/research" className="hover:text-gray-400">RESEARCH</Link></li>
+          <li className="py-2"><Link to="/alumni" className="hover:text-gray-400">ALUMNI ASSOCIATION</Link></li>
+          <li className="py-2"><Link to="/admission" className="hover:text-gray-400">ADMISSION 2023-24</Link></li>
+          <li className="py-2"><Link to="/contact" className="hover:text-gray-400">CONTACT</Link></li>
         </ul>
       </div>
     </div>
