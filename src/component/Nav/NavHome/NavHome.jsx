@@ -6,7 +6,7 @@ import { faPlusCircle } from '@fortawesome/free-solid-svg-icons/faPlusCircle';
 
 const NavHome = () => {
   return (
-    <div className="container mx-12 px-6 py-8 lg:absolute lg:bottom-[-200px]">
+    <div className="container mx-2 md:mx-12 lg:mx-12 px-6 py-8 lg:absolute lg:bottom-[-200px]">
       <div className="hidden lg:flex flex-wrap -mx-4">
         <div className="w-full sm:w-1/3 px-4 mb-8">
           <div className="bg-indigo-900 p-6 rounded-lg shadow-lg text-center h-[300px]">
