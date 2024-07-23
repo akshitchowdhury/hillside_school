@@ -1,15 +1,18 @@
 import React from 'react';
+import HomeOverView from './HomeOverView';
 
 const Home = () => {
   return (
+    <>
     <section className="tc-padding o-featured-courses p-24">
-      <div className="container mx-auto">
+      <div className="container mx-auto my-3 md:my-12">
         {/* Main Heading */}
         <div className="main-heading-holder text-center mb-10">
           <div className="main-heading text-gray-600">
-            <h2 className="text-3xl font-bold italic">
-              <em>Hillside Group of Institutions</em><span className="text-6xl">H</span>
+            <h2 className="text-3xl font-serif text-amber-400">
+              Hillside Group of Institutions
             </h2>
+            <span className="text-6xl">H</span>
             <span className="sperater flex justify-center items-center mt-4">
               <i className="w-4 h-4 border-t border-l border-gray-500 rotate-45"></i>
               <i className="w-4 h-4 border-t border-l border-gray-500 rotate-45 mx-2 active"></i>
@@ -44,6 +47,10 @@ const Home = () => {
         {/* Courses Circle Slider */}
       </div>
     </section>
+    
+    <HomeOverView/>
+    </>
+
   );
 };
 
