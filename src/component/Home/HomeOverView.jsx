@@ -13,14 +13,9 @@ const HomeOverView = () => {
             <div className="mx-auto">
               <h2 className='text-amber-400 text-3xl text-left'>OVERVIEW</h2>
               <p className='text-white py-4 text-left'>
-                The students are prepared to play a vital role in serving humanity through the medical field. Since the
-                establishment, the goal of this institution has been to develop students with a strong academic
-                background and excellence in the field chosen. The Academy offers numerous courses and programs all
-                being designed to educate exceptionally well and in a student-friendly pattern. Since its inception,
-                the college has been introducing courses in the various field of medicine, and other sciences to
-                provide more opportunities to the students and enhance the academics of the institution. The excellent
-                education process of Hillside Academy produces brilliant professionals with vast knowledge and
-                generous and caring human beings.
+              At Hillside Schools, students are meticulously prepared to take on significant roles in contributing positively to society through their educational journey. Since its founding, Hillside Schools has remained steadfast in its mission to develop students with a solid academic foundation and a commitment to excellence in their chosen fields.
+
+The institution offers an extensive array of courses and programs, all meticulously designed to deliver an outstanding educational experience that caters to diverse learning styles and needs. From the earliest stages of education through advanced studies, Hillside Schools has continuously introduced innovative programs across various disciplines, including science, arts, and humanities. This commitment to broadening educational horizons ensures that students have access to a wealth of opportunities, enabling them to achieve their full potential.
               </p>
             </div>
           </div>
