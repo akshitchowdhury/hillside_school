@@ -128,4 +128,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Email -akshitchowdhury@gmail.com
 
-Project Link: [https://github.com/yourusername/hillside-school-website](https://github.com/yourusername/hillside-school-website)
+Project Link: https://github.com/akshitchowdhury/hillside_school.git
