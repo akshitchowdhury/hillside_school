@@ -126,6 +126,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Email - [@yourtwitterhandle](https://twitter.com/yourtwitterhandle) - your.email@example.comakshitchowdhury@gmail.com
+Email -akshitchowdhury@gmail.com
 
 Project Link: [https://github.com/yourusername/hillside-school-website](https://github.com/yourusername/hillside-school-website)
