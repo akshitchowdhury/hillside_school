@@ -51,9 +51,7 @@ const Nav = () => {
       </div>      */}
 
 <NavLinks/>
-      <div className='navBg'>
-        {/* You can add any background or styling here */}
-      </div>
+      
 
     </>
   );

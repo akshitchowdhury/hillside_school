@@ -22,7 +22,6 @@ function App() {
     
     <Router>
     <Nav/>
-    <NavHome/>
     <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About/>} />
