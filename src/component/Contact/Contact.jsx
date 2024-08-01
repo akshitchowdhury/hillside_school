@@ -1,3 +1,6 @@
+import { faInstagram, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook } from '@fortawesome/free-brands-svg-icons/faFacebook';
+import { faGoogle } from '@fortawesome/free-brands-svg-icons/faGoogle';
 import { faEnvelopeOpen, faMobile, faMobileAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -8,7 +11,7 @@ const Contact = () => {
       <div className="flex flex-col md:flex-row items-center bg-white gap-8 p-6 md:p-8 justify-center ">
           {/* Contact Info */}
           <div className="contact-info bg-blue-950 h-[460px]  text-gray-50 p-4 ">
-            <h3 className="text-xl text-left font-semibold mb-2 my-4 ">CONTACT INFO</h3>
+            <h3 className="text-2xl text-left font-semibold mb-2 my-4 ">CONTACT INFO</h3>
             <h5 className="text-base text-amber-500 font-medium ">HILLSIDE CAMPUS & ADMISSION</h5>
             <p className="text-sm  mb-4 text-left py-6">
               # 9, Raghuvanahalli, Gubbalala Cross, <br />
@@ -35,24 +38,18 @@ const Contact = () => {
                 <hr />
               </li>
             </ul>
-            <ul className="social-icon-2 flex space-x-4 mt-4">
+            <ul className="social-icon-2 flex space-x-4 mt-4 mx-20">
               <li>
-                <a className="fa fa-twitter-square text-gray-600 hover:text-blue-500" href="javascript:void(0);"></a>
+                <FontAwesomeIcon icon={faInstagram} className='text-white'/>
               </li>
               <li>
-                <a className="fa fa-facebook-square text-gray-600 hover:text-blue-500" href="javascript:void(0);"></a>
+              <FontAwesomeIcon icon={faFacebook} className='text-white'/>
               </li>
               <li>
-                <a className="fa fa-google-plus-square text-gray-600 hover:text-red-500" href="javascript:void(0);"></a>
+              <FontAwesomeIcon icon={faLinkedinIn} className='text-white'/>
               </li>
               <li>
-                <a className="fa fa-linkedin-square text-gray-600 hover:text-blue-700" href="javascript:void(0);"></a>
-              </li>
-              <li>
-                <a className="fa fa-pinterest-square text-gray-600 hover:text-red-700" href="javascript:void(0);"></a>
-              </li>
-              <li>
-                <a className="fa fa-facebook-square text-gray-600 hover:text-blue-500" href="javascript:void(0);"></a>
+              <FontAwesomeIcon icon={faGoogle} className='text-white'/>
               </li>
             </ul>
           </div>
