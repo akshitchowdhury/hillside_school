@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutText = () => {
   return (
-    <div className="container absolute -my-[50%] lg:-my-[0%] md:-my-[0%] md:labsolute md:top-0 lg:absolute lg:right-20 lg:top-[270px]">
+    <div className="container absolute -my-[50%] lg:-my-[0%] md:-my-[0%] md:labsolute md:top-0 lg:absolute lg:right-20 lg:top-[290px]">
       <div className="text-left px-4 md:mx-[30%] lg:w-[600px]">
       {/* <p className="text-sm md:text-base my-2 text-white lg:text-lg">
         Connecting the Nation
