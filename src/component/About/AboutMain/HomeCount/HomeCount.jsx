@@ -53,8 +53,8 @@ const CountUpAnimation = ({ initialValue, targetValue, text }) => {
 
   return (
     <div ref={ref} className="flex flex-col items-center ">
-      <span className="text-4xl md:text-6xl font-bold text-amber-400">{count >= targetValue ? `${targetValue}+` : count}</span>
-      <span className="text-lg md:text-xl text-zinc-950 mt-2">{text}</span>
+      <span className="text-4xl md:text-6xl font-bold text-indigo-950">{count >= targetValue ? `${targetValue}+` : count}</span>
+      <span className="text-lg md:text-lg text-zinc-950 mt-2">{text}</span>
     </div>
   );
 };
@@ -62,11 +62,11 @@ const CountUpAnimation = ({ initialValue, targetValue, text }) => {
 function HomeCount() {
   return (
     <div className="count w-[90%] mx-3 my-6 lg:mx-16 md:mx-16 lg:-my-10 rounded-md py-2">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12">
-        <CountUpAnimation initialValue={0} targetValue={150} text="Tours Delivered" />
-        <CountUpAnimation initialValue={0} targetValue={400} text="Satisfied Customers" />
-        <CountUpAnimation initialValue={0} targetValue={7} text="Years of Experience" />
-        <CountUpAnimation initialValue={0} targetValue={50} text="Qualified Teachers" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 ">
+        <CountUpAnimation  initialValue={0} targetValue={500} text="Students Enrolled" />
+        <CountUpAnimation initialValue={0} targetValue={200} text="Succesful Graduates" />
+        <CountUpAnimation initialValue={0} targetValue={7} text="Years of Excellence" />
+        <CountUpAnimation initialValue={0} targetValue={30} text="Experienced Faculty Members" />
       </div>
     </div>
   );

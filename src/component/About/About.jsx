@@ -4,6 +4,7 @@ import AboutText from './AboutText'
 import AboutHero from './AboutHero'
 import AboutPointers from './AboutPointers'
 import AboutMain from './AboutMain/AboutMain'
+import VisionMission from './VisionMission'
 const About = () => {
   return (
     <>
@@ -14,8 +15,11 @@ const About = () => {
     <AboutText/>
 
 
-    <AboutPointers/>
     <AboutMain/>
+    
+    <AboutPointers/>
+
+    <VisionMission/>
       </div>
       </>
   )

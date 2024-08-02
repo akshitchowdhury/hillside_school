@@ -8,14 +8,14 @@ const AboutMain = () => {
     <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-12">
       <div className="flex flex-col-reverse lg:flex-row items-start">
         {/* Left side: Title and Paragraph */}
-        <div className="lg:w-1/2 w-full lg:pr-3 ">
+        <div className="lg:w-2/3 w-full lg:pr-3 ">
         <h3 className='text-amber-400 text-lg text-left my-10'>How it started for us</h3>
-          <h2 className="text-4xl lg:text-7xl md:text-7xl font-medium text-left text-gray-800 mb-4">
+          <h2 className="text-4xl lg:text-8xl md:text-7xl font-normal text-left text-gray-800 mb-4">
             Hillside School for Children
           </h2>
-          <p className="text-lg text-left text-gray-600">
-            Hillside School for Children is dedicated to nurturing young minds with excellence in education, state-of-the-art facilities, and a supportive environment. We focus on creating a space that fosters growth, creativity, and lifelong learning for all our students.
-          </p>
+          {/* <p className="text-sm text-left text-gray-600">
+            Hillside School for Children is dedicated to nurturing young minds with excellence in education, state-of-the-art facilities, and a supportive environment.
+          </p> */}
         </div>
         {/* Right side: Image */}
         <div className="lg:w-1/2 w-full">
