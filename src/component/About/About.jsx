@@ -3,6 +3,7 @@ import React from 'react'
 import AboutText from './AboutText'
 import AboutHero from './AboutHero'
 import AboutPointers from './AboutPointers'
+import AboutMain from './AboutMain/AboutMain'
 const About = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const About = () => {
 
 
     <AboutPointers/>
+    <AboutMain/>
       </div>
       </>
   )
