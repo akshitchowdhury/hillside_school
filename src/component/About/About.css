@@ -1,0 +1,29 @@
+/* Base styles for the background image */
+.AboutBg {
+    background-image: url("../../assets/aboutBg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh; /* Default to full height for large screens */
+  }
+  
+  /* Mobile view */
+  @media (max-width: 640px) {
+    .AboutBg {
+      height: 50vh; /* 50% viewport height for small screens */
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .AboutBg {
+      height: 75vh; /* 75% viewport height for medium screens */
+    }
+  }
+  
+  /* Desktop view */
+  @media (min-width: 1025px) {
+    .AboutBg {
+      height: 50vh; /* Full viewport height for large screens */
+    }
+  }
+  
