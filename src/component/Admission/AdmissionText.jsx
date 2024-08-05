@@ -13,11 +13,11 @@ const AdmissionText = () => {
         {/* <p className="text-sm md:text-base my-4 text-white lg:text-lg">
         Nurturing young minds with excellence in education, and a supportive environment that inspires growth, creativity, and lifelong learning
         </p> */}
-        <button className="w-44 h-12 max-w-xs px-4 py-2  bg-amber-400  text-zinc-950 
+        <button className="w-44 h-12 max-w-xs px-4 py-2 my-4 bg-amber-400  text-zinc-950 
         hover:text-amber-500 font-bold 
          shadow-md hover:bg-gray-50 focus:outline-none 
          focus:ring-2 focus:ring-amber-300 focus:ring-opacity-50 transition duration-300 ease-in-out">
-  Contact Us
+  Apply Now
 </button>
       </div>
     </div>
