@@ -2,6 +2,9 @@ import React from 'react';
 import HomeOverView from './HomeOverView';
 import NavHome from '../Nav/NavHome/NavHome';
 import './Home.css'
+import VisionMission from '../About/VisionMission';
+import AboutMain from '../About/AboutMain/AboutMain';
+import AboutPointers from '../About/AboutPointers';
 const Home = () => {
   return (
     <>
@@ -10,7 +13,7 @@ const Home = () => {
       </div>
     <NavHome/>
     <section className="tc-padding o-featured-courses p-24">
-      <div className="container mx-auto my-3 md:my-12">
+      <div className="container mx-auto my-3 md:my-10">
         {/* Main Heading */}
         <div className="main-heading-holder text-center mb-10">
           <div className="main-heading text-gray-600">
@@ -53,6 +56,9 @@ const Home = () => {
       </div>
     </section>
     
+    <AboutMain/>
+    
+    <AboutPointers/>
     <HomeOverView/>
     </>
 
