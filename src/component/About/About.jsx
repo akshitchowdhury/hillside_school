@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
     <div className='AboutBg'>
-        
+    </div>
     <AboutHero/>
 
     <AboutText/>
@@ -20,7 +20,7 @@ const About = () => {
     <AboutPointers/>
 
     <VisionMission/>
-      </div>
+      
       </>
   )
 }

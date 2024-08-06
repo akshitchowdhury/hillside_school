@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 
-const GroupOfinstitutions = () => {
+const GroupOfInstitutionMobile = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
       <li 
-        className="relative group text-left z-50"  
-        onMouseEnter={() => setIsOpen(true)} 
+        className="relative group text-left"  
+        onClick={() => setIsOpen(true)} 
         // onMouseLeave={() => setIsOpen(false)}
       >
         <div
@@ -20,10 +20,10 @@ const GroupOfinstitutions = () => {
   
         {/* Dropdown Menu */}
         {isOpen && (
-          <ul className="absolute left-0 mt-2 w-60 bg-white shadow-lg 
-           py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+          <ul className="absolute left-0 mt-2 w-60
+           bg-white shadow-lg  py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.hillsideayurveda.com/" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Ayurveda Medical College and Hospital
               </a>
             </li>
@@ -83,4 +83,4 @@ const GroupOfinstitutions = () => {
     );
 }
 
-export default GroupOfinstitutions
+export default GroupOfInstitutionMobile

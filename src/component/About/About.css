@@ -3,7 +3,7 @@
     background-image: url("../../assets/aboutBg.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 50vh; /* Default to full height for large screens */
+    height: 70vh; /* Default to full height for large screens */
   }
   
   /* Mobile view */
@@ -23,7 +23,7 @@
   /* Desktop view */
   @media (min-width: 1025px) {
     .AboutBg {
-      height: 50vh; /* Full viewport height for large screens */
+      height: 70vh; /* Full viewport height for large screens */
     }
   }
   

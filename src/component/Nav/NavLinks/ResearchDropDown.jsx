@@ -6,7 +6,7 @@ const ResearchDropDown = () => {
 
   return (
     <li 
-      className="relative group "  
+      className="relative group z-50"  
       onMouseEnter={() => setIsOpen(true)} 
     //   onMouseLeave={() => setIsOpen(false)}
     >

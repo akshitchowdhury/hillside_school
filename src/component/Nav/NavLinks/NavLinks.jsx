@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ResearchDropDown from './ResearchDropDown';
 import GroupOfinstitutions from './GroupOfinstitutions';
+import GroupOfInstitutionMobile from './GroupOfInstitutionMobile';
 
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -69,7 +70,8 @@ const NavLinks = () => {
         <ul className="flex flex-col justify-around h-auto items-center py-4 text-white">
           <li className="py-2"><Link to="/" className="hover:text-gray-400">HOME</Link></li>
           <li className="py-2"><Link to="/about" className="hover:text-gray-400">ABOUT US</Link></li>
-          <li className="py-2"><Link to="/institutions" className="hover:text-gray-400">GROUP OF INSTITUITONS</Link></li>
+          <GroupOfInstitutionMobile/>
+          {/* <li className="py-2"><Link to="/institutions" className="hover:text-gray-400">GROUP OF INSTITUITONS</Link></li> */}
           <li className="py-2"><Link to="/research" className="hover:text-gray-400">RESEARCH</Link></li>
           <li className="py-2"><Link to="/alumni" className="hover:text-gray-400">ALUMNI ASSOCIATION</Link></li>
           <li className="py-2"><Link to="/admission" className="hover:text-gray-400">ADMISSION 2023-24</Link></li>
