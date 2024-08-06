@@ -5,7 +5,7 @@ import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import ResearchDropDown from './ResearchDropDown';
 import GroupOfinstitutions from './GroupOfinstitutions';
 import GroupOfInstitutionMobile from './GroupOfInstitutionMobile';
-
+import logo from "../../../assets/logo-removebg-preview.png"
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,7 +16,9 @@ const NavLinks = () => {
   return (
     <div className="bg-inherit">
       <div className="flex justify-between items-center p-4 bg-gray-800 text-white">
-        <div className="text-xl">Logo</div>
+        <div className="text-xl">
+          <img src={logo} className='h-[100px] w-[100px]'/>
+        </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
             <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />

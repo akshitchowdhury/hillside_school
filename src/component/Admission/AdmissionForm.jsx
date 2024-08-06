@@ -25,7 +25,7 @@ const AdmissionForm = () => {
                 </div>
                 <div className="col-span-1 md:col-span-1/3">
                   <label htmlFor="applicationdate" className="block text-white">Application Date</label>
-                  <input name="date" id="applicationdate" disabled className="mt-1 block w-full border-gray-300 h-12 rounded-none shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-gray-200" />
+                  <input name="date" id="applicationdate"  className="mt-1 block w-full border-gray-300 h-12 rounded-none shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm bg-gray-200" />
                 </div>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

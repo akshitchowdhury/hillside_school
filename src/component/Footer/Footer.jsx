@@ -4,6 +4,7 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons/faMapMarkerAlt
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from "../../assets/footerLogo.png"
 
 const Footer = () => {
   return (
@@ -16,7 +17,7 @@ const Footer = () => {
             {/* Column */}
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="footer-c-widget logo-widget text-white">
-                <img src="images/footer-logo.png" alt="Footer Logo" className="mb-4" />
+              <img src={logo} className='h-[70px] w-full'/>
                 <p>Hillside Academy started back in 1996 by Bheemachandra Education Trust. Hillside Group has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore City.</p>
                 <div className="social-icons mt-4">
                   <ul className="flex space-x-3">
