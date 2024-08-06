@@ -14,7 +14,7 @@ const Footer = () => {
         {/* Footer Columns */}
         <div className="footer-columns p-10">
           <div className="flex flex-wrap">
-            {/* Column */}
+            
             <div className="w-full sm:w-1/3 mb-8 sm:mb-0 text-left">
               <div className="footer-c-widget logo-widget text-white">
               <img src={logo} className='h-[70px] w-full'/>
