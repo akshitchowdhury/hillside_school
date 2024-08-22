@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { FaGraduationCap, FaBook, FaUsers, FaBrain } from 'react-icons/fa';
 import ResearchHero from './ResearchHero';
 import ResearchText from './ResearchText';
+import ResearchBody from './ResearchBody';
 
 const PrimaryEducation = () => {
   const fadeIn = {
@@ -15,8 +16,8 @@ const PrimaryEducation = () => {
     <>
     <ResearchHero/>
     <ResearchText/>
-    
-    <div className="bg-blue-950 text-white min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+    <ResearchBody/>
+    <div className="bg-blue-950 h-1/2  text-white  py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* <motion.h2 
           className="text-3xl sm:text-4xl font-bold text-center mb-8 text-amber-400"
@@ -25,6 +26,12 @@ const PrimaryEducation = () => {
           Primary Education at Bethel English High School
         </motion.h2> */}
         
+        <motion.p 
+          className="mt-12 my-7 text-center text-lg"
+          {...fadeIn}
+        >
+          At Bethel English High School, we're committed to fostering a love for learning that lasts a lifetime.
+        </motion.p>
         <motion.div 
           className="grid grid-cols-1 md:grid-cols-4 gap-8"
           initial={{ opacity: 0 }}
@@ -69,12 +76,6 @@ const PrimaryEducation = () => {
           </motion.div>
         </motion.div>
 
-        <motion.p 
-          className="mt-12 text-center text-lg"
-          {...fadeIn}
-        >
-          At Bethel English High School, we're committed to fostering a love for learning that lasts a lifetime.
-        </motion.p>
       </div>
     </div>
     </>
