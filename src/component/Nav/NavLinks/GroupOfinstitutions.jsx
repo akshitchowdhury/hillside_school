@@ -53,17 +53,17 @@ const GroupOfinstitutions = () => {
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Pre-University Colleges (PUC)
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                Vocational Diploma Courses
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                Hillside Public School
               </a>
             </li>
