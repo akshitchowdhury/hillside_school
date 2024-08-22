@@ -6,7 +6,7 @@ const GroupOfInstitutionMobile = () => {
 
     return (
       <li 
-        className="relative group text-left"  
+        className="relative group text-left z-50"  
         onClick={() => setIsOpen(true)} 
         // onMouseLeave={() => setIsOpen(false)}
       >
