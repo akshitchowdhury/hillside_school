@@ -9,11 +9,11 @@ import NavLinks from './NavLinks/NavLinks';
 const Nav = () => {
   return (
     <>
-      <div className="bg-amber-400 py-2">
-        <div className="container mx-auto flex flex-wrap items-center justify-between px-4">
+      <div className="bg-amber-400 py-2 h-20 md:h-full">
+        <div className="container mx-auto flex flex-col md:flex-wrap items-center justify-between px-4">
           {/* Topbar Left */}
           <div className="topbar-left">
-            <ul className="flex items-center text-white">
+            <ul className="flex items-center text-white text-sm">
               <li className="flex items-center ">
                 <FontAwesomeIcon icon={faEnvelope} className='px-4'/>
                 <a href="mailto:admissions@hillsideacademy.in" className="hover:text-gray-400">
@@ -25,11 +25,11 @@ const Nav = () => {
           {/* Topbar Left */}
 
           {/* Topbar Right */}
-          <div className="topbar-right mt-2 sm:mt-0">
+          <div className="topbar-right mt-2 text-sm sm:mt-0">
             <ul className="flex md:items-center text-white">
               <li className="flex items-center">
                 <FontAwesomeIcon icon={faMobileAlt} className='px-4'/>
-                <span>&nbsp; FOR ADMISSION? +91-98459 56633, +91-97428 03553</span>
+                <p> FOR ADMISSION? +91-98459 56633, +91-97428 03553</p>
               </li>
             </ul>
           </div>
