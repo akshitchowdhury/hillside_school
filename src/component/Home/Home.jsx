@@ -13,11 +13,11 @@ const Home = () => {
       </div>
     <NavHome/>
     <section className="tc-padding o-featured-courses p-7  lg:p-24">
-      <div className="container mx-auto my-3 md:my-10">
+      <div className="container mx-auto my-3 md:my-24">
         {/* Main Heading */}
         <div className="main-heading-holder text-center mb-10">
           <div className="main-heading text-gray-600">
-            <h2 className="text-3xl font-serif text-amber-400">
+            <h2 className="text-3xl lg:text-5xl font-serif text-amber-400">
               Hillside Group of Institutions
             </h2>
             <span className="text-6xl">H</span>
@@ -27,7 +27,7 @@ const Home = () => {
               <i className="w-4 h-4 border-t border-l border-gray-500 rotate-45"></i>
             </span>
             <p className="mt-6 text-left text-base leading-7">
-              Hillside Group of Institutions started back in 1996 by Bheemachandra Education Trust. Hillside Group
+              <span className='text-3xl font-semibold text-amber-400'>Hillside Group </span>of Institutions started back in 1996 by Bheemachandra Education Trust. Hillside Group
               has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore
               City. Started with healthcare education, basic schools and added more and more courses in the field of
               nursing, Pharmacy College, business management and commerce. Hillside Group of Institutions is a
