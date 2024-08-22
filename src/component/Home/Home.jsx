@@ -12,7 +12,7 @@ const Home = () => {
         {/* You can add any background or styling here */}
       </div>
     <NavHome/>
-    <section className="tc-padding o-featured-courses p-24">
+    <section className="tc-padding o-featured-courses p-7  lg:p-24">
       <div className="container mx-auto my-3 md:my-10">
         {/* Main Heading */}
         <div className="main-heading-holder text-center mb-10">
@@ -26,7 +26,7 @@ const Home = () => {
               <i className="w-4 h-4 border-t border-l border-gray-500 rotate-45 mx-2 active"></i>
               <i className="w-4 h-4 border-t border-l border-gray-500 rotate-45"></i>
             </span>
-            <p className="mt-6 text-base leading-7">
+            <p className="mt-6 text-left text-base leading-7">
               Hillside Group of Institutions started back in 1996 by Bheemachandra Education Trust. Hillside Group
               has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore
               City. Started with healthcare education, basic schools and added more and more courses in the field of
@@ -41,7 +41,7 @@ const Home = () => {
               the students to learn and develop in. Our student body comprise of not just candidates from India but
               also from various neighboring countries.
             </p>
-            <p className="mt-6 text-base leading-7">
+            <p className="text-left mt-6 text-base leading-7">
               Hillside Academy can easily be considered as one of the best in the industry. It is well known for its
               superior education and strict follower of rules and protocols. No shortcuts and fast pacing in the
               medical division or academic area is entertained. It is well established and has been in the process of
