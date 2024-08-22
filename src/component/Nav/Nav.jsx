@@ -10,7 +10,7 @@ const Nav = () => {
   return (
     <>
       <div className="bg-amber-400 py-2 h-20 md:h-full">
-        <div className="container mx-auto flex flex-col md:flex-wrap items-center justify-between px-4">
+        <div className="container mx-auto flex flex-row md:flex-wrap items-center justify-between ">
           {/* Topbar Left */}
           <div className="topbar-left">
             <ul className="flex items-center text-white text-sm">
@@ -25,9 +25,9 @@ const Nav = () => {
           {/* Topbar Left */}
 
           {/* Topbar Right */}
-          <div className="topbar-right mt-2 text-sm sm:mt-0">
+          <div className="topbar-right mt-2 text-sm sm:mt-0 text-left">
             <ul className="flex md:items-center text-white">
-              <li className="flex items-center">
+              <li className="flex items-start">
                 <FontAwesomeIcon icon={faMobileAlt} className='px-4'/>
                 <p> FOR ADMISSION? +91-98459 56633, +91-97428 03553</p>
               </li>

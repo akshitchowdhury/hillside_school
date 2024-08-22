@@ -23,32 +23,32 @@ const GroupOfinstitutions = () => {
           <ul className="absolute left-0 mt-2 w-60 bg-white shadow-lg 
            py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.hillsideayurveda.com/" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Ayurveda Medical College and Hospital
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://hillsidepharmacycollege.edu.in/" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Pharmacy College
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.hillsidenursingcollege.edu.in/" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Nursing College
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://hillsidebusinessschool.edu.in/" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Business School
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://www.hillsideacademy.in/Bheemchandra-Paramedical-Institute.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 Bheemachandra Paramedical Institute
               </a>
             </li>
             <li>
-              <a href="https://hillsidepharmacycollege.edu.in/research-activities.html" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
+              <a href="https://hillsidecollegeofphysiotherapy.edu.in/" target='_blank' className="block px-4 py-2 text-gray-700 hover:bg-amber-400 hover:text-white transition-colors duration-200">
                 College of Physiotherapy
               </a>
             </li>
