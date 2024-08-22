@@ -10,10 +10,10 @@ const Nav = () => {
   return (
     <>
       <div className="bg-amber-400 py-2 h-20 md:h-full">
-        <div className="container mx-auto flex flex-row md:flex-wrap items-center justify-between ">
+        <div className="container mx-auto flex flex-col md:flex-row md:flex-wrap items-center justify-between ">
           {/* Topbar Left */}
           <div className="topbar-left">
-            <ul className="flex items-center text-white text-sm">
+            <ul className="flex  items-start md:items-center text-white text-sm">
               <li className="flex items-center ">
                 <FontAwesomeIcon icon={faEnvelope} className='px-4'/>
                 <a href="mailto:admissions@hillsideacademy.in" className="hover:text-gray-400">

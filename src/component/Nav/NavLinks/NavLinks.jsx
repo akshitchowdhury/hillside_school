@@ -14,17 +14,17 @@ const NavLinks = () => {
   };
 
   return (
-    <div className="bg-inherit">
-      <div className="flex justify-between items-center p-4 bg-gray-800 text-white">
-        <div className="text-xl">
-          <img src={logo} className='h-[100px] w-[100px]'/>
+    <div className="bg-inherit ">
+      <div className="flex justify-between items-center px-7 h-[55px] md:h-[83px] bg-gray-800 text-white">
+        <div className="text-xl ">
+          <img src={logo} className='h-[40px] w-[40px] md:h-[60px] md:w-[60px]'/>
         </div>
         <div className="md:hidden">
           <button onClick={toggleMenu} className="focus:outline-none">
             <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
           </button>
         </div>
-        <div className={`hidden md:flex md:items-center ${isOpen ? 'block' : 'hidden'} bg-gray-800`}>
+        <div className={`hidden md:flex md:items-center ${isOpen ? 'block' : 'hidden'} bg-gray-800 md:h-[83px]`}>
         <ul className="flex text-sm flex-col md:flex-row md:space-x-8 h-auto md:h-[100px] items-center py-4 text-white">
         <li className="relative">
           <Link to="/" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
