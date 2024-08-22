@@ -9,7 +9,10 @@
   /* Mobile view */
   @media (max-width: 640px) {
     .HomeBg {
-      height: 50vh; /* 50% viewport height for small screens */
+      height: 30vh; /* 50% viewport height for small screens */
+      background-size: contain;
+      background-position: center;
+      
     }
   }
   
