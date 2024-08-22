@@ -53,8 +53,8 @@ const CountUpAnimation = ({ initialValue, targetValue, text }) => {
 
   return (
     <div ref={ref} className="flex flex-col items-center ">
-      <span className="text-4xl md:text-6xl font-bold text-indigo-950">{count >= targetValue ? `${targetValue}+` : count}</span>
-      <span className="text-lg md:text-lg text-zinc-950 mt-2">{text}</span>
+      <span className="text-4xl md:text-6xl font-bold text-indigo-50">{count >= targetValue ? `${targetValue}+` : count}</span>
+      <span className="text-lg md:text-lg text-zinc-50 mt-2">{text}</span>
     </div>
   );
 };

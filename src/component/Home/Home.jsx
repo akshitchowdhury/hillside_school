@@ -5,6 +5,7 @@ import './Home.css'
 import VisionMission from '../About/VisionMission';
 import AboutMain from '../About/AboutMain/AboutMain';
 import AboutPointers from '../About/AboutPointers';
+import HomeAbout from './HomeAbout';
 const Home = () => {
   return (
     <>
@@ -56,7 +57,7 @@ const Home = () => {
       </div>
     </section>
     
-    <AboutMain/>
+    <HomeAbout/>
     
     <AboutPointers/>
     <HomeOverView/>

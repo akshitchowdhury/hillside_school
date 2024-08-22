@@ -1,6 +1,6 @@
 import React from 'react';
 import aboutmain from "../../../assets/hom1.jpg";
-import HomeCount from './HomeCount/HomeCount';
+import AboutCount from "../AboutMain/AboutCount/AboutCount";
 
 const AboutMain = () => {
   return (
@@ -39,7 +39,7 @@ const AboutMain = () => {
         </div>
         {/* Right side: Image */}
         <div className="lg:w-1/2 w-full">
-          <HomeCount/>
+          <AboutCount/>
         </div>
       </div>
     </div>
