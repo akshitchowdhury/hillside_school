@@ -12,10 +12,11 @@ import {
 } from "react-router-dom";
 import About from './component/About/About';
 import Institutions from './component/Group of Institutions/Institutions';
-import Research from './component/Research/Research';
+
 import AluminiAssocn from './component/Alumini Assocn/AluminiAssocn';
 import Admission from './component/Admission/Admission';
 import Contact from './component/Contact/Contact';
+import PrimaryEducation from './component/Research/PrimaryEducation';
 function App() {
   return (
     <div className="App overflow-clip">
@@ -26,7 +27,7 @@ function App() {
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About/>} />
   <Route path="/institutions" element={<Institutions/>} />
-  <Route path="/research" element={<Research/>} />
+  <Route path="/research" element={<PrimaryEducation/>} />
   <Route path="/alumni" element={<AluminiAssocn/>} />
   <Route path="/admission" element={<Admission />} />
   <Route path="/contact" element={<Contact/>} />

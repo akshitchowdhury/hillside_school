@@ -38,12 +38,11 @@ const NavLinks = () => {
         </li>
 
         <GroupOfinstitutions/>
-        {/* <li className="relative">
-          <Link to="/institutions" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
-            GROUP OF INSTITUTIONS
+        <li className="relative">
+          <Link to="/research" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
+            RESEARCH
           </Link>
-        </li> */}
-        {/* <ResearchDropDown/> */}
+        </li>
         <li className="relative">
           <Link to="/alumni" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
             ALUMNI ASSOCIATION
