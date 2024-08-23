@@ -62,7 +62,7 @@ const CountUpAnimation = ({ initialValue, targetValue, text }) => {
 function HomeCount() {
   return (
     <div className="count w-[90%] mx-3 my-6 lg:mx-16 md:mx-16 lg:-my-10 rounded-md py-2">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-12 ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-x-96 ">
         <CountUpAnimation  initialValue={0} targetValue={500} text="Students Enrolled" />
         <CountUpAnimation initialValue={0} targetValue={200} text="Succesful Graduates" />
         <CountUpAnimation initialValue={0} targetValue={7} text="Years of Excellence" />
