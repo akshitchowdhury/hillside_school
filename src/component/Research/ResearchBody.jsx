@@ -13,7 +13,7 @@ const ResearchBody = () => {
       </div>
 
       {/* Text Section */}
-      <div className="w-full lg:w-1/2 lg:pl-8 mt-6 lg:mt-0">
+      <div className="w-full text-justify lg:w-1/2 lg:pl-8 mt-6 lg:mt-0">
         <h2 className="text-2xl font-bold mb-4 text-gray-800">
           Quality Education at Bethel English School
         </h2>

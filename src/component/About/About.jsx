@@ -15,9 +15,7 @@ const About = () => {
     <AboutText/>
 
 
-    <AboutMain/>
     
-    <AboutPointers/>
 
     <VisionMission/>
       

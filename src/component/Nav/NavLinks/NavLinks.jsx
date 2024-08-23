@@ -6,6 +6,8 @@ import ResearchDropDown from './ResearchDropDown';
 import GroupOfinstitutions from './GroupOfinstitutions';
 import GroupOfInstitutionMobile from './GroupOfInstitutionMobile';
 import logo from "../../../assets/logo-removebg-preview.png"
+import AboutUs from './AboutDropDown';
+import AboutDropDown from './AboutDropDown';
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -31,11 +33,13 @@ const NavLinks = () => {
             HOME
           </Link>
         </li>
-        <li className="relative">
+        {/* <li className="relative">
           <Link to="/about" className="block mb-2 after:content-[''] after:absolute after:w-10 after:h-0.5 after:bg-amber-400 after:left-0 after:bottom-0 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:transition-transform after:duration-300">
             ABOUT US
           </Link>
-        </li>
+        </li> */}
+
+        <AboutDropDown/>
 
         <GroupOfinstitutions/>
         <li className="relative">

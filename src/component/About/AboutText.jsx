@@ -8,11 +8,9 @@ const AboutText = () => {
     
     
         <h1 className="text-4xl text-white font-semibold mb-2 md:text-5xl lg:text-6xl">
-  ABOUT <span className="animate-colorChange">US</span>
+  ABOUT <span className="text-amber-400">US</span>
 </h1>
-        <p className="text-sm md:text-base my-4 text-white lg:text-lg">
-        Nurturing young minds with excellence in education, and a supportive environment that inspires growth, creativity, and lifelong learning
-        </p>
+        
         <button className="w-44 h-12 max-w-xs px-4 py-2  bg-amber-400  text-zinc-950 
         hover:text-amber-500 font-bold 
          shadow-md hover:bg-gray-50 focus:outline-none 

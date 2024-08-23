@@ -17,6 +17,8 @@ import AluminiAssocn from './component/Alumini Assocn/AluminiAssocn';
 import Admission from './component/Admission/Admission';
 import Contact from './component/Contact/Contact';
 import PrimaryEducation from './component/Research/PrimaryEducation';
+import AboutUs from './component/About/AboutUs';
+
 function App() {
   return (
     <div className="App overflow-clip">
@@ -26,6 +28,7 @@ function App() {
     <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/about" element={<About/>} />
+  <Route path="/aboutus" element={<AboutUs/>} />
   <Route path="/institutions" element={<Institutions/>} />
   <Route path="/research" element={<PrimaryEducation/>} />
   <Route path="/alumni" element={<AluminiAssocn/>} />

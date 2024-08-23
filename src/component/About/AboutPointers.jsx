@@ -1,5 +1,7 @@
+
 import React from 'react';
 import { FaBook, FaRunning, FaLaptop, FaChild } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
 const features = [
   {
@@ -29,8 +31,11 @@ const AboutPointers = () => {
     <div className="container mx-auto py-12 px-4 sm:px-6 lg:px-8">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {features.map((feature, index) => (
-          <div 
-            key={index} 
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, x: -50 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: index * 1 }}
             className={`p-6 shadow-lg rounded-lg hover:scale-105 transition ease-in-out duration-300 ${
               index % 2 === 0 ? 'bg-white text-gray-800 border-2 border-indigo-950' : ' bg-indigo-900 text-white'
             }`}
@@ -42,7 +47,7 @@ const AboutPointers = () => {
               <h3 className="text-xl font-semibold mt-4">{feature.title}</h3>
               <p className="mt-2 text-sm text-left">{feature.description}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
