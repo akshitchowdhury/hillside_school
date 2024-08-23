@@ -31,7 +31,7 @@ const AboutPointers = () => {
         {features.map((feature, index) => (
           <div 
             key={index} 
-            className={`p-6 shadow-lg rounded-lg hover:shadow-xl transition-shadow duration-300 ${
+            className={`p-6 shadow-lg rounded-lg hover:scale-105 transition ease-in-out duration-300 ${
               index % 2 === 0 ? 'bg-white text-gray-800 border-2 border-indigo-950' : ' bg-indigo-900 text-white'
             }`}
           >

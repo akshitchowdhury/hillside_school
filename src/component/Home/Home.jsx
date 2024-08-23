@@ -19,7 +19,7 @@ const Home = () => {
         <div className="main-heading-holder text-center mb-10">
           <div className="main-heading text-gray-600">
             <h2 className="text-3xl lg:text-5xl font-serif text-amber-400">
-              Hillside Group of Institutions
+              Bethel English High School
             </h2>
             <span className="text-6xl">H</span>
             <span className="sperater flex justify-center items-center mt-4">
@@ -53,7 +53,6 @@ const Home = () => {
           </div>
         </div>
         
-        {/* Courses Circle Slider */}
       </div>
     </section>
     
