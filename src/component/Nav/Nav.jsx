@@ -37,18 +37,6 @@ const Nav = () => {
         </div>
       </div>
 
-{/* 
-      <div className='navTabs bg-inherit '>
-        <ul className="flex justify-around h-[100px] items-center py-4 bg-gray-800 text-white">
-          <li><Link to="/" className="hover:text-gray-400">Home</Link></li>
-          <li><Link to="/about" className="hover:text-gray-400">About Us</Link></li>
-          <li><Link to="/institutions" className="hover:text-gray-400">Group of Institutions</Link></li>
-          <li><Link to="/research" className="hover:text-gray-400">Research</Link></li>
-          <li><Link to="/alumni" className="hover:text-gray-400">Alumni Association</Link></li>
-          <li><Link to="/admission" className="hover:text-gray-400">Admission 2023-24</Link></li>
-          <li><Link to="/contact" className="hover:text-gray-400">Contact</Link></li>
-        </ul>
-      </div>      */}
 
 <NavLinks/>
       

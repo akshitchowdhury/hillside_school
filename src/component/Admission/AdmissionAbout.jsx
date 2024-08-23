@@ -14,12 +14,12 @@ const AdmissionAbout = () => {
                 <h2 className="text-4xl text-amber-500 font-bold my-2 text-left">
                   About
                 </h2>
-                <h5 className="text-2xl text-left  text-zinc-950">
+                {/* <h5 className="text-2xl text-justify  text-zinc-950">
                   Hillside Group of Institutions
-                </h5>
+                </h5> */}
               </div>
-              <p className="text-black text-left">
-                Hillside Group of Institutions started back in 1996 by
+              <p className="text-black text-justify">
+              <span className='text-4xl text-amber-400 font-semibold'>Hillside Group of Institutions </span>started back in 1996 by
                 Bheemachandra Education Trust. Hillside Group has various
                 educational institutions ranging from Kindergarten to PG
                 courses in and around Bangalore City. Started with healthcare

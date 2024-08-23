@@ -136,6 +136,9 @@ const containerVariants = {
 
 const Home = () => {
   return (
+    <>
+      <NavHome />
+    
     <motion.div
       initial="hidden"
       animate="visible"
@@ -144,7 +147,7 @@ const Home = () => {
       <div className="HomeBg">
         {/* You can add any background or styling here */}
       </div>
-      <NavHome />
+      
       <motion.section className="tc-padding o-featured-courses p-7 lg:p-24" variants={fadeUpVariants}>
         <div className="container mx-auto my-3 md:my-24">
           {/* Main Heading */}
@@ -250,6 +253,7 @@ const Home = () => {
         <HomeOverView />
       </motion.div>
     </motion.div>
+    </>
   );
 };
 
