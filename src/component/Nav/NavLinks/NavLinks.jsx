@@ -9,6 +9,7 @@ import logo from "../../../assets/logo-removebg-preview.png"
 import AboutUs from './AboutDropDown';
 import AboutDropDown from './AboutDropDown';
 import Resources from './Resources';
+import ResourcesMobile from './ResourcesMobile';
 const NavLinks = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -69,13 +70,13 @@ const NavLinks = () => {
 
       </div>
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} bg-gray-800`}>
-        <ul className="flex flex-col justify-around h-auto items-center py-4 text-white">
+        <ul className="flex flex-col justify-around h-auto items-start px-6 py-4 text-white">
           <li className="py-2"><Link to="/" className="hover:text-gray-400">HOME</Link></li>
           <li className="py-2"><Link to="/about" className="hover:text-gray-400">ABOUT US</Link></li>
           <GroupOfInstitutionMobile/>
           {/* <li className="py-2"><Link to="/institutions" className="hover:text-gray-400">GROUP OF INSTITUITONS</Link></li> */}
           <li className="py-2"><Link to="/research" className="hover:text-gray-400">RESEARCH</Link></li>
-          <li className="py-2"><Link to="/alumni" className="hover:text-gray-400">ALUMNI ASSOCIATION</Link></li>
+          <ResourcesMobile/>
           <li className="py-2"><Link to="/admission" className="hover:text-gray-400">ADMISSION 2023-24</Link></li>
           <li className="py-2"><Link to="/contact" className="hover:text-gray-400">CONTACT</Link></li>
         </ul>
