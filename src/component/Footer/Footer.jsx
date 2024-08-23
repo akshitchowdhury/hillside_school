@@ -74,7 +74,7 @@ const Footer = () => {
                   <hr className="border-gray-700 mb-4" />
                   <li className="flex items-start mb-4"><FontAwesomeIcon icon={faFileAlt} className='text-amber-400 text-xl px-4 '/> <a href="brochure/Hillside-Academy-Brochure.pdf" target="_blank" className="text-white text-center">Download Brochure</a></li>
                   <hr className="border-gray-700 mb-4" />
-                  <li className="flex items-start"><FontAwesomeIcon icon={faFileArchive} className='text-amber-400 text-xl px-4'/> <a href="privacy-policy.html" className="text-white text-center">Privacy Policy</a></li>
+                  {/* <li className="flex items-start"><FontAwesomeIcon icon={faFileArchive} className='text-amber-400 text-xl px-4'/> <a href="privacy-policy.html" className="text-white text-center">Privacy Policy</a></li> */}
                 </ul>
               </div>
             </div>

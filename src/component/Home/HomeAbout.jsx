@@ -77,7 +77,7 @@ const HomeAbout = () => {
         {/* Left side: Title and Paragraph */}
         <div className="lg:w-1/2 w-full lg:pr-3 ">
         
-          <p className="text-lg text-left text-gray-50">
+          <p className="text-lg text-justify text-gray-50">
           Hillside Group of Institutions started back in 1996 by Bheemachandra Education Trust. 
           Hillside Group has various educational institutions ranging from Kindergarten to PG courses in and around Bangalore City. Started with healthcare education, basic schools and added more and more courses in the field of nursing, Pharmacy College, business management and commerce. 
           Hillside Group of Institutions is a distinguished educational institution, combining excellence with innovation.
